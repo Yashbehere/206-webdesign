@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	border:0px solid;
+	background-color:rgb(3, 165, 252);
+	display:flex;
+}
+.header ul{
+	display:flex;
+}
+.header ul li{
+	list-style:none;
+	padding:5px 15px; 
+	margin:7px;
+	font-weight:bold;
+	cursor:pointer;
+	position:relative;
+	left:12px;
+}
+
+.header input{
+	margin:10px;
+	border:0px solid;
+	border-radius:20px;
+}
+.header button{
+	margin:10px;
+	cursor:pointer;
+	border: 2px solid;
+    border-radius:5px;
+}
+.header ul li:hover{
+	color:white;
+	font-size:17px;
+	font-weight:bold;
+}
+.header button:hover{
+	background-color:rgb(147, 211, 245);
+	color:white;
+}
